@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WaveWithMeterCollectionViewCell" customModule="RecordProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="20" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="20" height="141"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pz-xq-esC">
+                        <rect key="frame" x="0.0" y="60.5" width="20" height="20"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="hQe-Et-1rp"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZqW-aJ-xSL">
+                        <rect key="frame" x="0.0" y="131" width="20" height="10"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="fFO-oR-UZY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8pz-xq-esC" secondAttribute="trailing" id="C5E-yN-DQw"/>
+                <constraint firstAttribute="trailing" secondItem="ZqW-aJ-xSL" secondAttribute="trailing" id="Sns-4T-igo"/>
+                <constraint firstItem="8pz-xq-esC" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="ZhN-ID-eQ6"/>
+                <constraint firstItem="ZqW-aJ-xSL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hjk-6e-HzI"/>
+                <constraint firstAttribute="bottom" secondItem="ZqW-aJ-xSL" secondAttribute="bottom" id="k5G-1s-rub"/>
+                <constraint firstItem="8pz-xq-esC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oiz-sk-rfb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="32" height="96"/>
+            <connections>
+                <outlet property="meterHeight" destination="fFO-oR-UZY" id="zxK-Fo-fe1"/>
+                <outlet property="meterView" destination="ZqW-aJ-xSL" id="xmb-nl-kfM"/>
+                <outlet property="waveHeight" destination="hQe-Et-1rp" id="Kw2-Jg-yL0"/>
+                <outlet property="waveView" destination="8pz-xq-esC" id="Azk-ih-abs"/>
+            </connections>
+            <point key="canvasLocation" x="121.73913043478262" y="252.79017857142856"/>
+        </collectionViewCell>
+    </objects>
+</document>

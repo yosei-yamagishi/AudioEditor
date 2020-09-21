@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA13B12A24FC7C6100746FDF /* AudioEditorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B12924FC7C6100746FDF /* AudioEditorManager.swift */; };
+		CA1D5EDE2514C7B300F98DEB /* RecorderSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D5EDD2514C7B300F98DEB /* RecorderSessionHandler.swift */; };
+		CA1D5EE02514C7C800F98DEB /* RecorderFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D5EDF2514C7C800F98DEB /* RecorderFileHandler.swift */; };
+		CA1D5EE22514C7EF00F98DEB /* RecorderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D5EE12514C7EF00F98DEB /* RecorderHandler.swift */; };
 		CA2FB2EF24FA042800BB6ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB2EE24FA042800BB6ABB /* AppDelegate.swift */; };
 		CA2FB2F124FA042800BB6ABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB2F024FA042800BB6ABB /* SceneDelegate.swift */; };
-		CA2FB2F324FA042800BB6ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB2F224FA042800BB6ABB /* ViewController.swift */; };
+		CA2FB2F324FA042800BB6ABB /* AudioRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB2F224FA042800BB6ABB /* AudioRecordViewController.swift */; };
 		CA2FB2F624FA042800BB6ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2FB2F424FA042800BB6ABB /* Main.storyboard */; };
 		CA2FB2F824FA042A00BB6ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2FB2F724FA042A00BB6ABB /* Assets.xcassets */; };
 		CA2FB2FB24FA042A00BB6ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2FB2F924FA042A00BB6ABB /* LaunchScreen.storyboard */; };
+		CA2FB30524FA28F000BB6ABB /* RecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB30424FA28F000BB6ABB /* RecorderManager.swift */; };
+		CA2FB30724FA30D700BB6ABB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB30624FA30D700BB6ABB /* Extensions.swift */; };
+		CA2FB30A24FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB30824FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.swift */; };
+		CA2FB30B24FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2FB30924FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.xib */; };
+		CA2FB31C24FBB19C00BB6ABB /* AudioEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB31A24FBB19C00BB6ABB /* AudioEditorViewController.swift */; };
+		CA2FB31D24FBB19C00BB6ABB /* AudioEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2FB31B24FBB19C00BB6ABB /* AudioEditorViewController.xib */; };
+		CA2FB32424FBCF3500BB6ABB /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB32224FBCF3500BB6ABB /* TimeCollectionViewCell.swift */; };
+		CA2FB32524FBCF3500BB6ABB /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2FB32324FBCF3500BB6ABB /* TimeCollectionViewCell.xib */; };
+		CAAD09352503489D00AF891E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAD09342503489D00AF891E /* AudioPlayer.swift */; };
+		CAAD0937250348CD00AF891E /* AudioEditorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAD0936250348CD00AF891E /* AudioEditorHandler.swift */; };
+		CAAD09402503606F00AF891E /* WaveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAD093E2503606F00AF891E /* WaveCollectionViewCell.swift */; };
+		CAAD09412503606F00AF891E /* WaveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAAD093F2503606F00AF891E /* WaveCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA13B12924FC7C6100746FDF /* AudioEditorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEditorManager.swift; sourceTree = "<group>"; };
+		CA1D5EDD2514C7B300F98DEB /* RecorderSessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderSessionHandler.swift; sourceTree = "<group>"; };
+		CA1D5EDF2514C7C800F98DEB /* RecorderFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderFileHandler.swift; sourceTree = "<group>"; };
+		CA1D5EE12514C7EF00F98DEB /* RecorderHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderHandler.swift; sourceTree = "<group>"; };
 		CA2FB2EB24FA042800BB6ABB /* RecordProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2FB2EE24FA042800BB6ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA2FB2F024FA042800BB6ABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA2FB2F224FA042800BB6ABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA2FB2F224FA042800BB6ABB /* AudioRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordViewController.swift; sourceTree = "<group>"; };
 		CA2FB2F524FA042800BB6ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA2FB2F724FA042A00BB6ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2FB2FA24FA042A00BB6ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2FB2FC24FA042A00BB6ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2FB30424FA28F000BB6ABB /* RecorderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderManager.swift; sourceTree = "<group>"; };
+		CA2FB30624FA30D700BB6ABB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CA2FB30824FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveWithMeterCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA2FB30924FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaveWithMeterCollectionViewCell.xib; sourceTree = "<group>"; };
+		CA2FB31A24FBB19C00BB6ABB /* AudioEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEditorViewController.swift; sourceTree = "<group>"; tabWidth = 5; };
+		CA2FB31B24FBB19C00BB6ABB /* AudioEditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioEditorViewController.xib; sourceTree = "<group>"; };
+		CA2FB32224FBCF3500BB6ABB /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA2FB32324FBCF3500BB6ABB /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		CAAD09342503489D00AF891E /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		CAAD0936250348CD00AF891E /* AudioEditorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEditorHandler.swift; sourceTree = "<group>"; };
+		CAAD093E2503606F00AF891E /* WaveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveCollectionViewCell.swift; sourceTree = "<group>"; };
+		CAAD093F2503606F00AF891E /* WaveCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaveCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA1D5EDC2514C7A500F98DEB /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D5EDD2514C7B300F98DEB /* RecorderSessionHandler.swift */,
+				CA1D5EDF2514C7C800F98DEB /* RecorderFileHandler.swift */,
+				CA1D5EE12514C7EF00F98DEB /* RecorderHandler.swift */,
+				CAAD0936250348CD00AF891E /* AudioEditorHandler.swift */,
+				CAAD09342503489D00AF891E /* AudioPlayer.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		CA1D5EE32514C82500F98DEB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B12924FC7C6100746FDF /* AudioEditorManager.swift */,
+				CA2FB30424FA28F000BB6ABB /* RecorderManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CA1D5EE525182F7F00F98DEB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CA2FB30624FA30D700BB6ABB /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CA2FB2E224FA042800BB6ABB = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +117,42 @@
 		CA2FB2ED24FA042800BB6ABB /* RecordProject */ = {
 			isa = PBXGroup;
 			children = (
+				CA1D5EE525182F7F00F98DEB /* Extension */,
+				CA1D5EE32514C82500F98DEB /* Manager */,
+				CA1D5EDC2514C7A500F98DEB /* Handler */,
+				CA2FB31524FB6F2D00BB6ABB /* Editor */,
+				CA2FB31424FB6DFA00BB6ABB /* Record */,
 				CA2FB2EE24FA042800BB6ABB /* AppDelegate.swift */,
 				CA2FB2F024FA042800BB6ABB /* SceneDelegate.swift */,
-				CA2FB2F224FA042800BB6ABB /* ViewController.swift */,
-				CA2FB2F424FA042800BB6ABB /* Main.storyboard */,
 				CA2FB2F724FA042A00BB6ABB /* Assets.xcassets */,
 				CA2FB2F924FA042A00BB6ABB /* LaunchScreen.storyboard */,
 				CA2FB2FC24FA042A00BB6ABB /* Info.plist */,
 			);
 			path = RecordProject;
+			sourceTree = "<group>";
+		};
+		CA2FB31424FB6DFA00BB6ABB /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				CA2FB2F224FA042800BB6ABB /* AudioRecordViewController.swift */,
+				CA2FB2F424FA042800BB6ABB /* Main.storyboard */,
+				CAAD093E2503606F00AF891E /* WaveCollectionViewCell.swift */,
+				CAAD093F2503606F00AF891E /* WaveCollectionViewCell.xib */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		CA2FB31524FB6F2D00BB6ABB /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				CA2FB31A24FBB19C00BB6ABB /* AudioEditorViewController.swift */,
+				CA2FB31B24FBB19C00BB6ABB /* AudioEditorViewController.xib */,
+				CA2FB32224FBCF3500BB6ABB /* TimeCollectionViewCell.swift */,
+				CA2FB32324FBCF3500BB6ABB /* TimeCollectionViewCell.xib */,
+				CA2FB30824FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.swift */,
+				CA2FB30924FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.xib */,
+			);
+			path = Editor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +216,10 @@
 				CA2FB2FB24FA042A00BB6ABB /* LaunchScreen.storyboard in Resources */,
 				CA2FB2F824FA042A00BB6ABB /* Assets.xcassets in Resources */,
 				CA2FB2F624FA042800BB6ABB /* Main.storyboard in Resources */,
+				CA2FB30B24FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.xib in Resources */,
+				CAAD09412503606F00AF891E /* WaveCollectionViewCell.xib in Resources */,
+				CA2FB31D24FBB19C00BB6ABB /* AudioEditorViewController.xib in Resources */,
+				CA2FB32524FBCF3500BB6ABB /* TimeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +230,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA2FB2F324FA042800BB6ABB /* ViewController.swift in Sources */,
+				CAAD09402503606F00AF891E /* WaveCollectionViewCell.swift in Sources */,
+				CA2FB2F324FA042800BB6ABB /* AudioRecordViewController.swift in Sources */,
+				CA2FB30A24FA38FE00BB6ABB /* WaveWithMeterCollectionViewCell.swift in Sources */,
+				CAAD0937250348CD00AF891E /* AudioEditorHandler.swift in Sources */,
+				CAAD09352503489D00AF891E /* AudioPlayer.swift in Sources */,
+				CA2FB31C24FBB19C00BB6ABB /* AudioEditorViewController.swift in Sources */,
+				CA2FB30724FA30D700BB6ABB /* Extensions.swift in Sources */,
+				CA1D5EDE2514C7B300F98DEB /* RecorderSessionHandler.swift in Sources */,
+				CA1D5EE02514C7C800F98DEB /* RecorderFileHandler.swift in Sources */,
+				CA1D5EE22514C7EF00F98DEB /* RecorderHandler.swift in Sources */,
+				CA2FB30524FA28F000BB6ABB /* RecorderManager.swift in Sources */,
 				CA2FB2EF24FA042800BB6ABB /* AppDelegate.swift in Sources */,
 				CA2FB2F124FA042800BB6ABB /* SceneDelegate.swift in Sources */,
+				CA2FB32424FBCF3500BB6ABB /* TimeCollectionViewCell.swift in Sources */,
+				CA13B12A24FC7C6100746FDF /* AudioEditorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
