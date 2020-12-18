@@ -18,10 +18,9 @@ Editor
 - Editor： AVAssetExportSession
 
 ## その他
-- Demo
-
+Demo
 https://twitter.com/fairy_engineer/status/1307851911710691328?s=20
 
-- iOSDC2020
+iOSDC2020
 「実装したくなる音声編集」というタイトルでiOSDC2020で発表した資料です。
 https://speakerdeck.com/yoseiyamagishi/shi-zhuang-sitakunaruyin-sheng-bian-ji?slide=130
