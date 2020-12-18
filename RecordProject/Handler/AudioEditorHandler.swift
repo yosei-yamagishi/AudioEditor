@@ -34,7 +34,7 @@ class AudioEditorHandler {
             try! editTrack.insertTimeRange(
                 timeRange, of: originTrack, at: nextStartTime
             )
-            nextStartTime = timeRange.end
+            nextStartTime = CMTimeAdd(nextStartTime, timeRange.duration)
         }
         
         // exportSessionを用意して編集後のファイルをエクスポート
