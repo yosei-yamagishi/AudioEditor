@@ -3,9 +3,11 @@ Demo of audio recorder and editor with a audio waveform UI.
 (音声波形表示UI付きの収録と音声編集のデモです。)
 
 Recorder
+
 ![recorder](https://user-images.githubusercontent.com/22518469/102590597-204e6900-4154-11eb-9fa7-fae443c3d840.jpg)
 
 Editor
+
 ![editor](https://user-images.githubusercontent.com/22518469/102590590-1f1d3c00-4154-11eb-9e96-6793075fa056.jpg)
 
 
